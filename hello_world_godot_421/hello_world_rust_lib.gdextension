@@ -1,0 +1,14 @@
+[configuration]
+entry_symbol = "gdext_rust_init"
+compatibility_minimum = 4.1
+
+[libraries]
+linux.debug.x86_64 =     "res://../hello_world_rust_lib/target/debug/libhello_world_rust_lib.so"
+linux.release.x86_64 =   "res://../hello_world_rust_lib/target/release/libhello_world_rust_lib.so"
+windows.debug.x86_64 =   "res://../hello_world_rust_lib/target/debug/hello_world_rust_lib.dll"
+windows.release.x86_64 = "res://../hello_world_rust_lib/target/release/hello_world_rust_lib.dll"
+macos.debug =            "res://../hello_world_rust_lib/target/debug/libhello_world_rust_lib.dylib"
+macos.release =          "res://../hello_world_rust_lib/target/release/libhello_world_rust_lib.dylib"
+macos.debug.arm64 =      "res://../hello_world_rust_lib/target/debug/libhello_world_rust_lib.dylib"
+macos.release.arm64 =    "res://../hello_world_rust_lib/target/release/libhello_world_rust_lib.dylib"
+

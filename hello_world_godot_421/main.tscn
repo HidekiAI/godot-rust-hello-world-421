@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://b17pv0sbb4mm6"]
+
+[ext_resource type="Texture2D" uid="uid://tio4mq6sitod" path="res://icon.svg" id="1_iqvqw"]
+
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(333, 277)
+texture = ExtResource("1_iqvqw")
+
+[node name="MyRustLibPlayer" type="MyRustLibPlayer" parent="."]
